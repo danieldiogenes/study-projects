@@ -1,10 +1,13 @@
-function App() {
+import { Header } from './components/Header'
+import { NewTask } from './components/NewTask'
+import './global.css'
+
+export function App() {
 
   return (
     <div>
-      <p>First Commit</p>
+      <Header />
+      <NewTask />
     </div>
   )
 }
-
-export default App
